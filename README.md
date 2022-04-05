@@ -10,18 +10,19 @@ Semi Automatic Image Annotation Toolbox with RetinaNet, SSD and YOLO as the sugg
 
 2) Create a virtual environment with anaconda packages installed.
 ```
-conda create --name virtual_env anaconda
+conda create -n ImgLabel python=3.7
+conda activate ImgLabel
 ```
 
 3) In the repository, execute `pip install -r requirements.txt`.
 
 4) Download the pretrained weights and save it in /snapshots.
 
-   a) [Retinanet weights](https://github.com/fizyr/keras-retinanet/releases/download/0.3.1/resnet50_coco_best_v2.1.0.h5)
+   a) [Retinanet weights, offical repo](https://github.com/fizyr/keras-retinanet/releases)
    
    b) [SSD weights](https://drive.google.com/uc?authuser=0&id=1fyDDUcIOSjeiP08vl1WCndcFdtboFXua&export=download)
    
-   c) [YOLO weights](https://drive.google.com/uc?id=1dckkRQjovO_2SRH1x8q7kKKGb5OACOQW&export=download)
+   c) [YOLO weights](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5)
 
 
 ### Instructions
